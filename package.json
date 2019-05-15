@@ -11,7 +11,9 @@
       "name": "Mohd Sheeraz"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "growl": ">=1.10.0"
+  },
   "description": "Parse your .FIT files easily, directly from JS.",
   "devDependencies": {
     "babel": "^6.3.26",
