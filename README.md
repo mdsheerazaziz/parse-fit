@@ -1,4 +1,4 @@
-# easy-fit
+# parse-fit
 
 > Parse your .FIT files easily, directly from JS.
 > Written in ES6.
@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ npm install easy-fit --save
+$ npm install parse-fit --save
 ```
 
 ## How to use
@@ -77,11 +77,6 @@ Allowed properties :
 
 ### easyFit.parse(Buffer _file_, Function _callback_)
 _callback_ receives two arguments, the first as a error String, and the second as Object, result of parsing.
-
-## Contributors
-
-Big thanks to [Mikael Lofjärd](https://github.com/mlofjard) for [his early prototype](https://github.com/mlofjard/jsonfit).
-See [CONTRIBUTORS](./CONTRIBUTORS.md).
 
 ## License
 
